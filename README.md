@@ -1,7 +1,21 @@
-# Tauri + SvelteKit + TypeScript
+# 이미지 처리 데스크톱 애플리케이션
 
-This template should help get you started developing with Tauri, SvelteKit and TypeScript in Vite.
+## ✨ 프로젝트 소개
 
-## Recommended IDE Setup
+이 프로젝트는 Tauri 프레임워크를 기반으로 구축된 데스크톱 이미지 처리 애플리케이션입니다.
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).
+## 🛠️ 기술 스택
+
+- **프레임워크**: Tauri, SvelteKit
+
+## 🚀 주요 기능 구현 현황
+
+- [x] **이미지 리사이징**: 이미지의 크기를 원하는 대로 조절하는 기능 (Lanczos3 알고리즘 사용)
+
+## 🚧 향후 계획 (TODO)
+
+- [ ] **UI/UX 개선**
+- [ ] 메타데이터 확인 및 제거
+- [ ] 이미지 업스케일링
+- [ ] 백그라운드 제거
+- [ ] 성능 최적화 및 버그 수정
